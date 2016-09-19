@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Forms
+	</title>
+</head>
+<body>
+	<!-- remember last projects-->
+	<h1>Forms</h1>
+	<h2>Basic Form with input fields</h2>
+	<div class="form-one">
+		<form>
+		<!-- new additions label tag and form tag -->
+			<p><label>Customer Name:<input/></label></p>
+			<p><label>Street Address:<input/></label></p>
+			<p><label>City:<input/></label></p>
+			<p><label>State:<input/></label></p>
+			<p><label>ZIP Code:<input/></label></p>
+			<p><label>Phone Number:<input/></label></p>
+		</form>
+	</div>
+
+	<br/>
+	<!-- bordered and organized versus some what unclean. -->
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend>
+					Customer Information
+				</legend>
+				<p><label>Name: <input/></label></p>
+				<p><label>Email: <input type="Tel" /></label></p>
+				<p><LABEL>Phone number: <input type="email" /></LABEL></p>
+			</fieldset>
+		</form>
+	</div>
+<!-- Radio adds a dot that can be clicked -->
+<div class="form-three">
+	<form>
+		<fieldset>
+	  		<legend>Biggest Burritos in the World!</legend>
+				<p><input type="radio" name="Humongous" id="size1" /><label for="size1"> Humongous </label></p>
+				<p><label> <input type="radio" name="doubleHumongous"> Double-Humongous </label></p>
+				<p><label> <input type="radio" name="tripleHumongous"> Triple-Humongous </label></p>
+				<p><label> <input type="radio" name="quadrupleHumongous"> Quadtruple-Humongous </label></p>
+		</fieldset>
+	</form>
+</div>
+<!-- it is okay to leave something blank for now. -->
+<div class="form-four">
+	<form>
+		<fieldset>
+			<legend>Fixins</legend>
+			<p><label><input type="checkbox" name=""/>Sauteed Onions</label></p>
+			<p><label><input type="checkbox" name=""/>Whipped Sour Cream</label></p>
+			<p><label><input type="checkbox" name=""/>Juicy Tomato</label></p>
+			<p><label><input type="checkbox" name=""/>Creamy Avacado</label></p>
+			<p><label><input type="checkbox" name=""/>Crisp Lettuce</label></p>
+			<p><label>Delivery Instructions:</label><textarea></textarea> </p>
+			
+		</fieldset>
+	</form>
+</div>
+
+</body>
+</html>
