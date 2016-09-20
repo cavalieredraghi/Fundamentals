@@ -17,9 +17,7 @@
 	border-radius: 5px;
 	border: 5px solid rgb(159, 11, 15);
 }
-#store{
-	margin-left: 70%
-}
+
 #Footer{
 	margin: 10px 10px 10px 10px;
 	padding: 5px 5px 5px 5px;
@@ -27,7 +25,13 @@
 	background-color: rgb(246, 241, 155);
 	height: 50px;
 }
+/*Store ids*/
+.store{
+	margin-left: 70%;
+	max-width: 50px;
+	min-width: 15px;}
 
+}
 /*different colors for the links that are avaible*/
 	a:link {color: rgb(159, 11, 15);}
 	a:visited {color: rgb(76, 255, 0);}
