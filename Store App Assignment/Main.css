@@ -11,14 +11,14 @@
 	border-radius: 5px;
 	background-color: black;
 }
-#Cav-banner{
+#Cav-banner{ /*linked to first img*/
 	width: 100%;
 	height: 300px;
 	border-radius: 5px;
 	border: 5px solid rgb(159, 11, 15);
 }
 #store{
-	margin-left: 75%
+	margin-left: 70%
 }
 #Footer{
 	margin: 10px 10px 10px 10px;
@@ -29,7 +29,7 @@
 }
 
 /*different colors for the links that are avaible*/
-	a:link {color: white;}
+	a:link {color: rgb(159, 11, 15);}
 	a:visited {color: rgb(76, 255, 0);}
 	a:hover {color: rgb(223,216,113);}
 	a:active {color: rgb(76,255,0);}
