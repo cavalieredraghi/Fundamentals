@@ -1,0 +1,20 @@
+h1 {
+	text-align: center; 
+
+}
+.Margins-and-Padding{
+	text-align: center;
+}
+#IMG{
+	width: 800px;
+	height: 440px;
+
+}
+.Margins{
+	border: 2px solid blue;
+/*	margin-top: 75px; 
+	margin-right: 75px;
+	margin-bottom: 75px;
+	margin-left: 75px;*/
+	margin: 75px 75px 75px 75px;
+}

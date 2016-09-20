@@ -1,0 +1,12 @@
+body {
+	background-color: rgb(76, 255, 0);
+}
+.standard-text {
+	color: rgb(223, 216, 113);
+}
+/* Just some code for the second DIV for a Test Run of CSS */
+.Test-Run {
+	background-color: lightblue; width: 100%; height: 200px;
+
+	color: maroon;
+}
