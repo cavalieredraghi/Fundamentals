@@ -12,14 +12,14 @@
 // < Less than
 // <= Less than or Equal
 
-// var num = 5 < 2;
-// console.log(num);
-// var newNum = 5 > 2;
-// console.log(newNum);
-// //(()) inforces the Order of Operations
-// console.log((num==newNum));
-// var numberOne = 1;
-// var numberTwo= "1";
+var num = 5 < 2;
+console.log(num);
+var newNum = 5 > 2;
+console.log(newNum);
+//(()) inforces the Order of Operations
+console.log((num==newNum));
+var numberOne = 1;
+var numberTwo= "1";
 
 // console.log((numberOne===numberTwo));
 
