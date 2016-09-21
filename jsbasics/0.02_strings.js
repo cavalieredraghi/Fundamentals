@@ -7,11 +7,9 @@ var tweet ="Kanye is broke again";
 var facebookPost= "I love coding!";
 var instaCaption= "#Awesome";
 console.log(tweet);
-
 console.log("Hello World");
 console.log("")
 console.log("Hey you guys!");
-
 //CONCATENATION
 console.log(birthCity+",", birthState);
 console.log(birthCity +", "+ birthState);
@@ -27,3 +25,4 @@ var model=" Vibe ";
 var carYear= 2003 ;
 var anthonyCar= make+model+carYear;
 console.log(anthonyCar);
+
