@@ -43,4 +43,3 @@ if ((numberOne % 2 ===0) && (numberOne % 3 === 0)) {
 }else {
 	console.log ("number is Prime.");
 }
-var iAmATestVariable = "HI!";
