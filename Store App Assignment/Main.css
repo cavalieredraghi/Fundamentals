@@ -27,7 +27,7 @@
 }
 /*Store classes and IDs*/
 .store{
-	text-align: right;
+	 float: right;
 }
 .Login{
 	color: rgb(76, 255, 0);
