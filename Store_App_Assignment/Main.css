@@ -19,6 +19,7 @@
 }
 
 #Footer{
+	text-align: left;
 	margin: 10px 10px 10px 10px;
 	padding: 5px 5px 5px 5px;
 	background-color: rgb(246, 241, 155);
@@ -26,8 +27,11 @@
 
 }
 /*Store classes and IDs*/
+#store {
+	float: right;
+}
 .store{
-	 float: right;
+	 display: inline-grid right;
 }
 .Login{
 	color: rgb(76, 255, 0);
@@ -38,7 +42,25 @@
 	text-align: center;
 }
 
+/*Image classes and IDs*/
+#mainproduct{
+	width: 393px;
+	height: 339px;
+	border: 1px solid black;
+	border-radius: 5px;
+	
+	}
+.ts{
+	width:152px;
+	height:182px;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+.tsinputs{
 
+}
 
 /*different colors for the links that are avaible*/
 	a:link {color: rgb(159, 11, 15);}
@@ -57,16 +79,4 @@
 	margin-left: 5px;
 	margin-right: 5px;
 }
-/*Image classes and IDs*/
-#mainproduct{
-	width: 393px;
-	height: 339px;
-	border: 1px solid black;
-	}
-.ts{
-	width:152px;
-	height:182px;
-	border: 1px solid black;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 5px 5px 5px;
-}
+
