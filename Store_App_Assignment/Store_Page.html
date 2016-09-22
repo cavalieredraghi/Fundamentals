@@ -3,12 +3,14 @@
 <head>
 	<title>Cav's Store</title>
 	<link rel="stylesheet" type="text/css" href="Main.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body id="margin">
 <!-- banner and nav bar work-->
-	<div>
 	<img id="Cav-banner" src="IMG/cav-banner.png">
-		<nav id="Nav-Bar" class="nav-bar1 nav-bar2 nav-bar3 nav-bar4">
+	<div>
+
+		<nav id="Nav-Bar">
 			<a href="Front_Page.html">Home</a>
 			<a href="#">Blog</a>
 			<a href="https://twitter.com/CavaliereDraghi" target="blank"><img src="IMG/new_twitter_logo.png" class="sociallogo"></a>
@@ -18,48 +20,57 @@
 			<a href="#"><img src="IMG/Instagram_logo.png" class="sociallogo"></a>
 			<!-- input addition just for store page -->
 				<a id="store" href="Store_Page.html">Store<input type="search" name="search" placeholder="Search"></a>
-				<br>
-				<p class="Login"><input type="name" name="login" placeholder="Login"></p>
-				<p class="Login"><input type="password" name="password" placeholder="Password"></p>
-				
+				<p class="Login"><input type="name" name="login" placeholder="Login"> <input type="password" name="password" placeholder="Password"></p>
+						
 		</nav>
 	</div>
 	<!-- getting into the meat of the store page -->
 <SECTION>
 	<div>
-		<H1 class="storefonts">
-			Cav's Shirts!
-		</H1>
+		<H1 class="storefonts">Cav's Shirts!</H1>
 		<!-- images possibly an image gallery -->
-		<div>
-			<img id="mainproduct" src="IMG/cav_shirt.png" center left>
+		<center><div>
+			<img id="mainproduct" data-scale="1.6" src="IMG/cav_shirt.png">
 		<br>
 		<!-- other shirt options -->
-			
-			<img class="ts" src="IMG/black_t.png" center left>
-			<img class="ts" src="IMG/blue_t.png">
-			<img class="ts" src="IMG/yellow_t.png">
-			
-		</div> <!-- end of images section -->
+			<img class="ts" data-scale ="2.4" src="IMG/black_t.png">
+			<img class="ts" data-scale ="2.4" src="IMG/blue_t.png">
+			<img class="ts" data-scale ="2.4" src="IMG/yellow_t.png">
+		</div> </center>
+		<!-- end of images section -->
 		<br>
 		<div>
-		<H3>shirt size</H3>
-		<select class="tsinputs" center right>
-
-			<option>5XL</option>
-			<option>4XL</option>
-			<option>3XL</option>
-			<option>XXL</option>
-			<option>XL</option>
-			<option>L</option>
-			<option>M</option>
-			<option>S</option>
-			<option>XS</option>
-			<option>XXS</option>
-		</select>
+			<H3 class="storefonts">shirt size</H3>
+				<p>Shirts for thoses whom consider themselves a Gamer, so come on Gamers get yourself a t-shirt now. Pick you color and size here!</p>
+			<select id="size">
+				<option disabled selected>--choose a size--</option>
+				<option value="3">5XL</option>
+				<option value="2">4XL</option>
+				<option value="1">3XL</option>
+				<option>XXL</option>
+				<option>XL</option>
+				<option>L</option>
+				<option>M</option>
+				<option>S</option>
+				<option value="-1">XS</option>
+				<option value="-2">XXS</option>
+			</select>
+			<select>
+				<option disabled selected>--choose a color--</option>
+				<option>white</option>
+				<option>black</option>
+				<option>blue</option>
+				<option>yellow</option>
+				<option>green</option>
+				<option>red</option>
+			</select>
+			<button id="checkOut">
+				Checkout!
+			</button>
 			
 		</div><!-- end of input and shirt type section-->
 		<hr>
+		<center><h2 class="storefonts">other products</h2></center>
 	</div>
 </SECTION>
 	<br>
