@@ -61,8 +61,12 @@
 #mainproduct{
 	width: 393px;
 	height: 339px;
+	border: 1px solid black;
 	}
 .ts{
-	width:152;
-	height:182;
+	width:152px;
+	height:182px;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
 }
