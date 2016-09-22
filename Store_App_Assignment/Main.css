@@ -21,9 +21,9 @@
 #Footer{
 	margin: 10px 10px 10px 10px;
 	padding: 5px 5px 5px 5px;
-	border-radius: 5px;
 	background-color: rgb(246, 241, 155);
 	height: 50px;
+
 }
 /*Store classes and IDs*/
 .store{
@@ -55,4 +55,11 @@
 	height: 25px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+/*Image classes and IDs*/
+#mainproduct{
+	float: center;
+	width: 393px;
+	height: 339px;
+	
 }
