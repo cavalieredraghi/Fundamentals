@@ -35,6 +35,7 @@
 }
 .storefonts{
 	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
 }
 
 
@@ -58,8 +59,10 @@
 }
 /*Image classes and IDs*/
 #mainproduct{
-	float: center;
 	width: 393px;
 	height: 339px;
-	
+	}
+.ts{
+	width:152;
+	height:182;
 }
