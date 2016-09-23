@@ -3,6 +3,10 @@
 <head>
 	<title>Cav's Store</title>
 	<link rel="stylesheet" type="text/css" href="Main.css">
+	<!--CDN Links-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  
+	<!-- Internal js/jquery -->
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body id="margin">
@@ -11,6 +15,7 @@
 	<img id="Cav-banner" src="IMG/cav-banner.png"> 
 		 
 		<nav id="Nav-Bar">
+		<!-- Drop down menu begins -->
 		<div class="dropdown">
   			<button class="dropbtn">Menu</button>
 			<div class="dropdown-content">
@@ -19,67 +24,62 @@
 				<a href="Store_Page.html">Store</a>
 		  	</div>
 		  	</div>
+		  	<!-- drop down menu ends -->
 				<!-- social media icon location-->
 			<a href="https://twitter.com/CavaliereDraghi" target="blank"><img src="IMG/new_twitter_logo.png" class="sociallogo"></a>
 			<a href=""><img src="IMG/Facebook_logo-8.png" class="sociallogo"></a>
 			<a href="https://www.youtube.com/channel/UCUo4lwyD6r3su6jMyj9lfyw" target="blank"><img src="IMG/Youtube.png" class="sociallogo"></a>
-			<a href="https://plus.google.com/u/0/b/103656848619945357336/"><img src="IMG/google-logo.png" class="sociallogo"></a>
+			<a href="https://plus.google.com/u/0/b/103656848619945357336/" target="blank"><img src="IMG/google-logo.png" class="sociallogo"></a>
 			<a href="#"><img src="IMG/Instagram_logo.png" class="sociallogo"></a>
 		</nav>
 			
 			
 	</div>
 	<!-- getting into the meat of the store page -->
-<SECTION>
-	<div>
-		<H1 class="storefonts">Cav's Shirts!</H1>
-		<!-- images possibly an image gallery -->
-		<center><div>
-			<img id="mainproduct" data-scale="1.6" src="IMG/cav_shirt.png">
-		<br>
-		<!-- other shirt options -->
-			<img class="ts" data-scale ="2.4" src="IMG/black_t.png">
-			<img class="ts" data-scale ="2.4" src="IMG/blue_t.png">
-			<img class="ts" data-scale ="2.4" src="IMG/yellow_t.png">
-		</div> </center>
-		<!-- end of images section -->
-		<br>
-		<div>
-			<H3 class="storefonts">shirt size</H3>
-				<p>Shirts for thoses whom consider themselves a Gamer, so come on Gamers get yourself a t-shirt now. Pick you color and size here!</p>
-			<select id="size">
-				<option disabled selected>--choose a size--</option>
-				<option value="3">5XL</option>
-				<option value="2">4XL</option>
-				<option value="1">3XL</option>
-				<option>XXL</option>
-				<option>XL</option>
-				<option>L</option>
-				<option>M</option>
-				<option>S</option>
-				<option value="-1">XS</option>
-				<option value="-2">XXS</option>
-			</select>
-			<select>
-				<option disabled selected>--choose a color--</option>
-				<option>white</option>
-				<option>black</option>
-				<option>blue</option>
-				<option>yellow</option>
-				<option>green</option>
-				<option>red</option>
-			</select>
-			<button id="checkOut">
-				Checkout!
-			</button>
-			
-		</div><!-- end of input and shirt type section-->
-		<hr>
-		<center><h2 class="storefonts">other products</h2></center>
-	</div>
-</SECTION>
-	<br>
+<!-- <a> allows to click and get a bigger image of the photo -->
+<center><h1 class="storeFonts">Cav's Gamer Shirts</h1></center>
+<hr>
+ <div>
+ 	<a href="IMG/cav_shirt.png"><img id="mainProduct" src="IMG/cav_shirt.png"></a>
+ 		<br>
+ 	<a href="IMG/blue_t.png"><img class="subProducts" src="IMG/blue_t.png"></a>
+ 	<a href="IMG/black_t.png"><img class="subProducts" src="IMG/black_t.png"></a>
+ 	<a href="IMG/yellow_t.png"><img class="subProducts" src="IMG/yellow_t.png"></a>
+ </div>
+ <!-- product description and options -->
+ <div id="position">
+ 	<p class="storeFonts">
+ 		Gamer shirts for all thoses who are fans of Cav's Group and considered themselves Groupies. Get your color and size now.
+ 		<select>
+ 			<option disabled selected>-- select shirt size--</option>
+ 			<option>5XL</option>
+ 			<option>4XL</option>
+ 			<option>3XL</option>
+ 			<option>XXL</option>
+ 			<option>XL</option>
+ 			<option>L</option>
+ 			<option>M</option>
+ 		</select>
+ 		<select>
+ 			<option disabled selected>--Select Shirt Color--</option>
+ 			<option>White</option>
+ 			<option>Black</option>
+ 			<option>Blue</option>
+ 			<option>Yellow</option>
+ 			<option>Red</option>
+ 			<option>Green</option>
+ 		</select>
+ 		<br>
+ 	</p>
+ </div>
+ <hr>
+ <h3 class="storeFonts">Additional Products</h3>
+ <div>
+ 	<a href="#"><img class="secondaryPages" src="IMG/cav_coffee.png"></a>
+ 	<a href="#"><img class="secondaryPages" src="IMG/cav_mouse_pad.png"></a>
+ </div>
 	<!-- End of page -->
+	<br>
 <FOOTER id="Footer">
 			<a href="#">About</a>
 			<br>
