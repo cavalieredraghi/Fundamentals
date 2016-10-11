@@ -1,0 +1,130 @@
+/*Margins for the whole project*/
+#margin{
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+}
+/* Nav Bar IDs*/
+#Nav-Bar{margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	border: 5px solid rgb(159, 11, 15);
+	border-radius: 5px;
+	background-color: black;
+}
+
+/* Drop down CSS starts and sectioned off */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4cff00;
+    color: rgb(159, 11, 15);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+ .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #99975e}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*Drop down menu ends*/
+
+#Cav-banner{ /*linked to first img*/
+	width: 100%;
+	height: 350px;
+	border-radius: 5px;
+	border: 5px solid rgb(159, 11, 15);
+}
+#Footer{
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: rgb(246, 241, 155);
+	height: 50px;
+	position: static;
+}
+
+.storeFonts{
+	font-family: Verdana, Geneva, sans-serif;
+}
+/*different colors for the links that are avaible*/
+	a:link {color: rgb(159, 11, 15);}
+	a:visited {color: rgb(76, 255, 0);}
+	a:hover {color: rgb(223,216,113);}
+	a:active {color: rgb(76,255,0);}
+/*proper alignment and setting for iframes*/
+#Youtube{
+	text-align: center;
+}
+/*sizing and alignment for social media links*/
+.sociallogo{
+	width:25px;
+	height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+#mainProduct{
+	width: 490px;
+	height: 423px;
+	border: 1px solid black;
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	position: relative;
+	left: 30px;
+	border-radius: 5px;
+}
+
+.subProducts{
+	width: 175px;
+	height: 210px;
+	border: 1px solid black;
+	margin:1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	position: inherit;
+	top: 425px;
+	border-radius: 5px;
+}
+#position{
+	position: relative;
+}
+.secondaryPages{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+}
+ 
+  /*end of zoom feature*/
